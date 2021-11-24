@@ -1,0 +1,1 @@
+{!! Form::select('product', $brandWiseProductList, null, ['class' => 'form-control','placeholder' => 'Select Product & SKU']) !!}

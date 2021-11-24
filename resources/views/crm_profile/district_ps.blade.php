@@ -1,0 +1,1 @@
+{!! Form::select('police_station_id', $disWisePsList, null, ['class' => 'form-control','placeholder' => 'Select PS Name', 'id' => 'police_station_id']) !!}

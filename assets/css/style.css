@@ -1,0 +1,24 @@
+.form-group.required .control-label:after {
+    color: #d00;
+    content: "*";
+    position: absolute;
+    margin-left: 2px;
+    font-size: 19px;
+}
+
+
+/*ul li:hover ul {
+    display: block;
+}*/
+
+/*.dropdown:hover>.dropdown-menu {
+  display: block;
+}*/
+
+
+
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+}
